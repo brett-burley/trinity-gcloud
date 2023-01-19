@@ -7,7 +7,7 @@ const router = express.Router();
 
 
 
-router.get('/', (req, res) => res.send('speech main'));
+router.get('/', (req, res) => res.send('speech main route'));
 
 // Check if char audio exists
 router.post('/charExists', async (req, res) => {
